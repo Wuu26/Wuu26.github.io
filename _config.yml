@@ -22,10 +22,10 @@ repository               : "Wuu26/Wuu26.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           :
+  avatar           : "images/profile.jpg"
   name             : "NG Insu (吴彦澍)"
   pronouns         :
-  bio              : "B.Sc. Computer Science student at Peking University. Intelligent Science & Technology major. From Macau SAR, China."
+  bio              : "B.Sc. Computer Science student at Peking University. <br>Intelligent Science & Technology major. <br>From Macau SAR, China."
   location         : "Beijing, China"
   employer         : "Peking University"
   uri              :
