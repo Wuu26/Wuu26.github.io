@@ -9,56 +9,48 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV (PDF)](/files/Ng_Insu_CV.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **B.Sc. in Computer Science**, Peking University, 2024.09 – Present
+  * Major: Intelligent Science and Technology
+  * Minor: Business Administration (Guanghua School of Management)
 
-Work experience
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **R&D Engineer (Intern)**, China Telecom (Dongguan Branch), 2025.08
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Research & Projects
+======
+* **GANs for Voxel Completion in Ancient Pottery Dataset** *(2026.01)*
+  * PKU Final Project, Computer Vision Course
+  * Tech Stack: PyTorch, 3D CNN, WGAN-GP, 3D Squeeze-and-Excitation (SE) Attention, Multi-GPU Processing
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Campus Health Management System** *(2025.06)*
+  * PKU Final Project, Practice of Programming in C&C++ Course
+  * Tech Stack: C++, Qt, GitHub
 
-Publications
+* **Human vs AI Gomoku Game** *(2025.01)*
+  * PKU Final Project, Introduction to Computation(A) Course
+  * Tech Stack: C++
+
+Honors & Awards
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+* Scholarship Scheme for Studying in Top Higher Education Institutions, Macau SAR Government (2024–2025, 2025–2026)
+
+Leadership & Community Activities
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* **Peking University Student Union** — Member, Right & Proposals Department (2025.09–Present)
+* **Macau Students Association in Beijing (澳生之家)** — Deputy Director, Sports & Culture Department (2025.09–Present)
+* **Beijing Universities Macau Students Football Team** — President (2025.09–Present); Vice President (2024.09–2025.09)
+* **PKU Office of International Relations (HK, Macau & Taiwan Affairs)**
+  * Member, HK/Macau/Taiwan Development Center (2025.09–Present)
+  * Member, International Programs Center (2024.09–2025.09)
+* **Beijing Macau Students Association** — Member, Public Relations Department (2025.02–2025.07)
+
+Skills & Languages
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **Languages:** English (IELTS 7.0: L8 R7.5 W6.5 S6.5), Mandarin (Level 2-A), Cantonese
+* **Software:** SolidWorks (Mechanical Design Certificate)
+* **Programming:** C++, Python (PyTorch, 3D CNN)
