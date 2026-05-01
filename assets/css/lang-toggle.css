@@ -1,0 +1,17 @@
+.lang-toggle-btn {
+  float: right;
+  margin-bottom: 1em;
+  padding: 4px 14px;
+  border: 1.5px solid #8C0000;
+  border-radius: 4px;
+  background: white;
+  color: #8C0000;
+  cursor: pointer;
+  font-size: 0.85em;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+.lang-toggle-btn:hover {
+  background: #8C0000;
+  color: white;
+}
