@@ -34,9 +34,22 @@
   }
 }
 
+.page__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  margin-bottom: 1.25em;
+
+  .page__title {
+    margin: 0;
+  }
+}
+
 .page__title {
   margin-top: 0;
-  line-height: 1;
+  line-height: 1.2;
+  font-weight: 600;
 
   & + .page__meta {
     margin-top: -0.5em;

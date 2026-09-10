@@ -6,7 +6,7 @@ Personal academic homepage of **NG Insu (吴彦澍)**.
 
 ## About
 
-Second-year B.Sc. Computer Science student at Peking University (Intelligent Science and Technology). Interested in AI alignment and embodied intelligence (VLA models).
+Undergraduate student at Peking University, majoring in Intelligent Science and Technology and pursuing a dual degree in Business Administration. Interested in AI alignment, embodied intelligence, vision-language-action (VLA) models, and world models (WM). Currently conducting research under the supervision of Prof. Yaodong Yang at Peking University and working as a Research Intern at BAAI (since August 2026).
 
 ## Built with
 

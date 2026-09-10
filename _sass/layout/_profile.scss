@@ -1,0 +1,47 @@
+/* Shared typography for the bilingual homepage and CV. */
+.profile-content {
+  line-height: 1.65;
+
+  h2 {
+    margin: 1.6em 0 0.65em;
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid var(--global-border-color);
+    font-size: 1.25em;
+    font-weight: 600;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0 0 1em;
+  }
+
+  ul {
+    padding-left: 1.25em;
+  }
+
+  li {
+    margin-bottom: 0.65em;
+  }
+
+  a {
+    text-underline-offset: 0.15em;
+    text-decoration-thickness: 1px;
+  }
+
+  .entry-date {
+    display: inline-block;
+    margin-left: 0.35em;
+    color: var(--global-text-color-light);
+    font-size: 0.85em;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+
+    @include breakpoint(max-width $medium) {
+      display: block;
+      margin: 0.2em 0 0;
+    }
+  }
+}

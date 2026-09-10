@@ -26,8 +26,11 @@ author:
   name             : "NG Insu (吴彦澍)"
   pronouns         :
   bio              : "B.Sc. Computer Science student at PKU<br>Macau SAR, China"
+  bio_zh           : "北京大学计算机科学本科生<br>中国澳门特别行政区"
   location         : "Beijing, China"
+  location_zh      : "中国北京"
   employer         : "Peking University"
+  employer_zh      : "北京大学"
   uri              :
   email            : "wys@stu.pku.edu.cn"
 
@@ -65,7 +68,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "in-su-ng-3016963b9"
   mastodon         :
   medium           :
   pinterest        :
@@ -191,6 +194,28 @@ exclude:
   - README
   - tmp
   - vendor
+  # Keep template examples in the repository, but exclude them from the public site.
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/cv-json.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/terms.md
+  - _pages/year-archive.html
+  - files/bibtex1.bib
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
 keep_files:
   - .git
   - .svn

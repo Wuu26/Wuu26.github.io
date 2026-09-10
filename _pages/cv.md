@@ -1,79 +1,70 @@
 ---
 layout: archive
 title: "CV"
+title_zh: "简历"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include lang-toggle.html %}
-
-<div class="lang-en" markdown="1">
+<div class="lang-en profile-content" lang="en" markdown="1">
 
 [Download CV (PDF)](/files/Ng_Insu_CV.pdf)
 
----
-
 ## Education
 
-**Peking University** — B.Sc. in Computer Science *(2024.09 – Present)*
+**Peking University** — B.Sc. in Computer Science <span class="entry-date">2024.09 – Present</span>
 - Major: Intelligent Science and Technology (School of Electronics Engineering and Computer Science)
-- Minor: Business Administration (Guanghua School of Management)
+- Dual Degree: Business Administration (Guanghua School of Management)
 
----
+## Research Experience
+
+**[Beijing Academy of Artificial Intelligence (BAAI)](https://www.baai.ac.cn)** — Research Intern <span class="entry-date">2026.08 – Present</span>
 
 ## Work Experience
 
-**China Telecom (Dongguan Branch)** — R&D Engineer Intern *(2025.08)*
-
----
+**China Telecom (Dongguan Branch)** — R&D Engineer Intern <span class="entry-date">2025.08</span>
 
 ## Research & Projects
 
-**GANs for Voxel Completion in Ancient Pottery Dataset** *(2026.01)*
+**GANs for Voxel Completion in Ancient Pottery Dataset** <span class="entry-date">2026.01</span>
 - PKU Final Project, Computer Vision Course
 - Designed a generative pipeline for 3D voxel-based shape completion on a cultural heritage pottery dataset
 - Tech Stack: PyTorch, 3D CNN, WGAN-GP, 3D Squeeze-and-Excitation (SE) Attention, Multi-GPU Processing
 
-**Campus Health Management System** *(2025.06)*
+**Campus Health Management System** <span class="entry-date">2025.06</span>
 - PKU Final Project, Practice of Programming in C&C++ Course
 - Developed a full-featured desktop application for campus health record management with a Qt GUI
 - Tech Stack: C++, Qt, GitHub
 
-**Human vs AI Gomoku Game** *(2025.01)*
+**Human vs AI Gomoku Game** <span class="entry-date">2025.01</span>
 - PKU Final Project, Introduction to Computation(A) Course
 - Implemented a rule-based AI opponent with game-tree search for a two-player Gomoku game
 - Tech Stack: C++
-
----
 
 ## Honors & Awards
 
 - **Scholarship Scheme for Studying in Top Higher Education Institutions**, Macau SAR Government (2024–2025, 2025–2026) — only 14 recipients across Asia each year
 
----
-
 ## Leadership & Community Activities
 
 **Peking University Student Union**
-- Member, Right & Proposals Department *(2025.09 – Present)*
+- Member, Right & Proposals Department <span class="entry-date">2025.09 – Present</span>
 
 **Macau Students Association in Beijing (澳生之家)**
-- Deputy Director, Sports & Culture Department *(2025.09 – Present)*
+- Deputy Director, Sports & Culture Department <span class="entry-date">2025.09 – Present</span>
 
 **Beijing Universities Macau Students Football Team**
-- President *(2025.09 – Present)*
-- Vice President *(2024.09 – 2025.09)*
+- President <span class="entry-date">2025.09 – Present</span>
+- Vice President <span class="entry-date">2024.09 – 2025.09</span>
 
 **PKU Office of International Relations (HK, Macau & Taiwan Affairs)**
-- Member, HK/Macau/Taiwan Development Center *(2025.09 – Present)*
-- Member, International Programs Center *(2024.09 – 2025.09)*
+- Member, HK/Macau/Taiwan Development Center <span class="entry-date">2025.09 – Present</span>
+- Member, International Programs Center <span class="entry-date">2024.09 – 2025.09</span>
 
 **Beijing Macau Students Association**
-- Member, Public Relations Department *(2025.02 – 2025.07)*
-
----
+- Member, Public Relations Department <span class="entry-date">2025.02 – 2025.07</span>
 
 ## Skills & Languages
 
@@ -90,71 +81,63 @@ redirect_from:
 
 </div>
 
-<div class="lang-zh" markdown="1" hidden>
+<div class="lang-zh profile-content" lang="zh-CN" markdown="1" hidden>
 
 [下载简历（PDF）](/files/吴彦澍_个人简历.pdf)
 
----
-
 ## 教育背景
 
-**北京大学** — 计算机科学与技术 理学学士 *(2024.09 – 至今)*
+**北京大学** — 计算机科学与技术 理学学士 <span class="entry-date">2024.09 – 至今</span>
 - 主修：智能科学与技术（信息科学技术学院）
-- 辅修：工商管理（光华管理学院）
+- 双学位：工商管理（光华管理学院）
 
----
+## 科研经历
+
+**[北京智源人工智能研究院（BAAI）](https://www.baai.ac.cn)** — 科研实习生 <span class="entry-date">2026.08 – 至今</span>
 
 ## 工作经历
 
-**中国电信（东莞分公司）** — 研发工程师（实习）*(2025.08)*
-
----
+**中国电信（东莞分公司）** — 研发工程师（实习）<span class="entry-date">2025.08</span>
 
 ## 科研与项目
 
-**古陶���数据集体素补全 GAN** *(2026.01)*
+**古陶器数据集体素补全 GAN** <span class="entry-date">2026.01</span>
 - 北京大学计算机视觉课程期末项目
 - 设计了基于生成对抗网络的三维体素形状补全流程，应用于文化遗产陶器数据集
 - 技术栈：PyTorch、3D CNN、WGAN-GP、三维 SE 注意力机制、多卡并行训练
 
-**校园健康管理系统** *(2025.06)*
+**校园健康管理系统** <span class="entry-date">2025.06</span>
 - 北京大学 C&C++ 程序设计实习课程期末项目
 - 基于 Qt 图形界面开发校园健康档案管理桌面应用
 - 技术栈：C++、Qt、GitHub
 
-**人机五子棋对战** *(2025.01)*
+**人机五子棋对战** <span class="entry-date">2025.01</span>
 - 北京大学计算概论(A)课程期末项目
 - 实现含博弈树搜索的 AI 对手
 - 技术栈：C++
-
----
 
 ## 荣誉与奖项
 
 - **澳门特区政府「资助于顶尖学府就读奖学金」**（2024–2025、2025–2026年度）——每年亚洲仅14位获奖者
 
----
-
 ## 领导与社区活动
 
 **北京大学学生会**
-- 权益与提案部 成员 *(2025.09 – 至今)*
+- 权益与提案部 成员 <span class="entry-date">2025.09 – 至今</span>
 
 **澳生之家**
-- 文体部 副部长 *(2025.09 – 至今)*
+- 文体部 副部长 <span class="entry-date">2025.09 – 至今</span>
 
 **北京高校澳生足球队**
-- 队长 *(2025.09 – 至今)*
-- 副队长 *(2024.09 – 2025.09)*
+- 队长 <span class="entry-date">2025.09 – 至今</span>
+- 副队长 <span class="entry-date">2024.09 – 2025.09</span>
 
 **北京大学国际暨港澳台事务学生秘书处**
-- 港澳台发展中心 干事 *(2025.09 – 至今)*
-- 国际项目中心 干事 *(2024.09 – 2025.09)*
+- 港澳台发展中心 干事 <span class="entry-date">2025.09 – 至今</span>
+- 国际项目中心 干事 <span class="entry-date">2024.09 – 2025.09</span>
 
 **北京澳门学生联合会**
-- 公关部 成员 *(2025.02 – 2025.07)*
-
----
+- 公关部 成员 <span class="entry-date">2025.02 – 2025.07</span>
 
 ## 技能与语言
 

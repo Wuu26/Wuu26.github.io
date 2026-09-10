@@ -1,17 +1,28 @@
-.lang-toggle-btn {
-  float: right;
-  margin-bottom: 1em;
-  padding: 4px 14px;
-  border: 1.5px solid #8C0000;
+.lang-toggle-btn,
+.profile-links-toggle {
+  flex-shrink: 0;
+  min-height: 44px;
+  min-width: 64px;
+  margin: 0;
+  padding: 8px 12px;
+  border: 1px solid var(--global-base-color);
   border-radius: 4px;
-  background: white;
-  color: #8C0000;
+  background: var(--global-bg-color);
+  color: var(--global-base-color);
   cursor: pointer;
-  font-size: 0.85em;
-  font-weight: bold;
-  letter-spacing: 0.03em;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.25;
+  white-space: nowrap;
 }
-.lang-toggle-btn:hover {
-  background: #8C0000;
-  color: white;
+.lang-toggle-btn:hover,
+.profile-links-toggle:hover {
+  background: var(--global-base-color);
+  color: var(--global-bg-color);
+}
+.lang-toggle-btn:focus-visible,
+.profile-links-toggle:focus-visible {
+  outline: 2px solid var(--global-base-color);
+  outline-offset: 3px;
 }
