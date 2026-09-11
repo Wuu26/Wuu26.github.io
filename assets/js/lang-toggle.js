@@ -18,17 +18,25 @@
       btn.textContent = lang === 'en' ? '中文' : 'EN';
       btn.setAttribute('aria-label', lang === 'en' ? 'Switch to Chinese' : '切换到英文');
     });
-    localStorage.setItem(STORAGE_KEY, lang);
+    try {
+      localStorage.setItem(STORAGE_KEY, lang);
+    } catch (error) {
+      // Switching still works when the browser cannot save preferences.
+    }
     window.dispatchEvent(new Event('resize'));
   }
 
-  document.addEventListener('DOMContentLoaded', function () {
-    const saved = localStorage.getItem(STORAGE_KEY) || DEFAULT;
-    setLang(saved);
-    document.querySelectorAll('.lang-toggle-btn').forEach(btn => {
-      btn.addEventListener('click', function () {
-        setLang(this.dataset.active === 'en' ? 'zh' : 'en');
-      });
+  // Loaded after the page markup; do not wait for unrelated deferred scripts.
+  let saved = DEFAULT;
+  try {
+    saved = localStorage.getItem(STORAGE_KEY) || DEFAULT;
+  } catch (error) {
+    // Use the default language if storage is unavailable.
+  }
+  setLang(saved);
+  document.querySelectorAll('.lang-toggle-btn').forEach(btn => {
+    btn.addEventListener('click', function () {
+      setLang(this.dataset.active === 'en' ? 'zh' : 'en');
     });
   });
 })();

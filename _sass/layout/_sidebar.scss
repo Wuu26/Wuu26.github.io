@@ -323,3 +323,54 @@
     }
   }
 }
+
+/* Show mobile contact links directly below the profile. */
+@media screen and (max-width: ($large - 1px)) {
+  .author-profile {
+    display: grid;
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 12px 16px;
+    align-items: start;
+  }
+
+  .author__avatar {
+    display: block;
+    width: 72px;
+  }
+
+  .author__content {
+    display: block;
+    padding: 0;
+  }
+
+  .author__urls-wrapper {
+    display: block;
+    grid-column: 1 / -1;
+    z-index: auto;
+    cursor: auto;
+  }
+
+  .author__urls {
+    display: flex;
+    position: static;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+    z-index: auto;
+    gap: 4px 16px;
+    flex-wrap: wrap;
+
+    &:before,
+    &:after {
+      display: none;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      min-height: 44px;
+      margin: 0;
+    }
+  }
+}
