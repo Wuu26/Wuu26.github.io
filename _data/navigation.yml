@@ -5,10 +5,6 @@ main:
     title_zh: "关于我"
     url: /
 
-  - title: "Publications"
-    title_zh: "论文发表"
-    url: /publications/
-
   - title: "CV"
     title_zh: "简历"
     url: /cv/

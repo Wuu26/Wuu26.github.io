@@ -83,8 +83,6 @@ redirect_from:
 
 <div class="lang-zh profile-content" lang="zh-CN" markdown="1" hidden>
 
-[下载简历（PDF）](/files/吴彦澍_个人简历.pdf)
-
 ## 教育背景
 
 **北京大学** — 计算机科学与技术 理学学士 <span class="entry-date">2024.09 – 至今</span>
